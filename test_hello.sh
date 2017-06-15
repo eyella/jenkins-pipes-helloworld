@@ -1,5 +1,5 @@
 #!/bin/bash
 
-[[ `./hello.sh johnny` = "hello raju!" ]] && (echo "test passed!"; exit 0) || (echo "test failed :-("; exit 1)
+[[ `./hello.sh raju!` = "hello raju!" ]] && (echo "test passed!"; exit 0) || (echo "test failed :-("; exit 1)
 
 
